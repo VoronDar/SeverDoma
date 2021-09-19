@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">#СеверДома</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string-array name="types" translatable="false">
+        <item>японская кухня</item>
+        <item>быстрое питание</item>
+        <item>флористика</item>
+        <item>итальянская кухня</item>
+        <item>морские продукты</item>
+        <item>питьевая вода</item>
+        <item>столовая</item>
+        <item>сладости</item>
+        <item>товары для животных</item>
+        <item>медицина</item>
+        <item>косметика и гигиена</item>
+        <item>инструменты</item>
+        <item>техника</item>
+        <item>продукты</item>
+        <item>одежда</item>
+        <item>другое</item>
+    </string-array>
+</resources>

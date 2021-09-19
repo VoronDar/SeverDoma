@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".AddNewBisiness">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#464866"
+        android:text = "добавить точку предпринимательства"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding = "8dp"
+        android:textSize="30sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#74c7e8"
+        />
+
+    <EditText
+        style = "@style/editText"
+        android:layout_marginTop="16dp"
+        android:id="@+id/title_bis"
+        android:hint = "название предприятия*"
+        android:inputType="textPersonName|textShortMessage|textCapSentences"/>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#464866"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text = "тип предприятия*"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp"
+        />
+
+    <Spinner
+        style = "@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:entries="@array/types"
+        android:layout_marginBottom= "16dp"
+        android:textColor="#464866"
+        android:layout_height="wrap_content" />
+
+        <EditText
+            style = "@style/editText"
+            android:layout_marginTop="32dp"
+            android:id="@+id/description"
+            android:hint = "описание*"
+            android:inputType="textMultiLine"/>
+
+
+        <ImageView
+            android:layout_marginTop="32dp"
+            android:id = "@+id/image"
+            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:src = "@drawable/rect815"
+            android:scaleType="centerCrop"
+            />
+        <Button
+            style = "@style/NextButton"
+            android:id = "@+id/image_upload"
+            android:layout_width="match_parent"
+            android:layout_margin = "16dp"
+            android:text = "загрузить изображение*"
+            />
+
+        <EditText
+            style = "@style/editText"
+            android:layout_marginTop="16dp"
+            android:id="@+id/address"
+            android:hint = "адрес"
+            android:inputType="textUri"/>
+    <Button
+        style = "@style/NextButton"
+        android:id = "@+id/location"
+        android:layout_width="match_parent"
+        android:layout_margin = "16dp"
+        android:text = "редактировать местоположение*"
+        />
+
+    <EditText
+        style = "@style/editText"
+        android:layout_marginTop="32dp"
+        android:id="@+id/phone"
+        android:hint = "телефон"
+        android:inputType="phone"/>
+    <EditText
+        style = "@style/editText"
+        android:layout_marginTop="16dp"
+        android:id="@+id/email"
+        android:hint = "сайт"
+        android:inputType="textUri"/>
+
+        <EditText
+            style = "@style/editText"
+            android:layout_marginTop="16dp"
+            android:id="@+id/vk"
+            android:hint = "Вконтакте"
+            android:inputType="textUri"/>
+
+        <EditText
+            style = "@style/editText"
+            android:layout_marginTop="16dp"
+            android:id="@+id/insta"
+            android:hint = "Instagram"
+            android:inputType="textUri"/>
+        <EditText
+            style = "@style/editText"
+            android:layout_marginTop="16dp"
+            android:id="@+id/fb"
+            android:hint = "FaceBook"
+            android:inputType="textUri"/>
+
+    <Button
+        style = "@style/NextButton"
+        android:id = "@+id/push"
+        android:layout_width="match_parent"
+        android:layout_margin = "16dp"
+        android:text = "опубликовать"
+        />
+    </LinearLayout>
+</ScrollView>

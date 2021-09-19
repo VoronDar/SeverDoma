@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id = "@+id/image_p"
+        android:layout_height="170dp"
+        android:layout_width="match_parent"
+        android:src = "@drawable/rect815"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id = "@+id/this_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text = "название"
+        android:textColor = "#464866"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding = "8dp"
+        android:textSize="20sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#74c7e8"
+        />
+
+    <TextView
+        android:id = "@+id/this_description"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor = "#868099"
+        android:text = "описание: "
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:padding = "8dp"
+        android:textSize="15sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#74c7e8"
+        />
+
+    <TextView
+        android:id = "@+id/address"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor = "#868099"
+        android:text = "адрес: "
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:padding = "8dp"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        style = "@style/linear"
+        android:id = "@+id/phone">
+        <TextView
+            style = "@style/text_for_linear"
+            android:id = "@+id/label"
+            android:text = "Выберите категорию"
+            />
+        <ImageView
+            style = "@style/image_for_linear"
+            android:id = "@+id/link"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            style = "@style/linear"
+            android:id = "@+id/mail">
+            <TextView
+                style = "@style/text_for_linear"
+                android:id = "@+id/label_mail"
+                android:text = "Выберите категорию"
+                />
+            <ImageView
+                style = "@style/image_for_linear"
+                android:id = "@+id/link_mail"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+        style = "@style/linear"
+        android:id = "@+id/vk">
+        <TextView
+            style = "@style/text_for_linear"
+            android:id = "@+id/label_vk"
+            android:text = "Выберите категорию"
+            />
+        <ImageView
+            style = "@style/image_for_linear"
+            android:id = "@+id/link_vk"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style = "@style/linear"
+        android:id = "@+id/fb">
+        <TextView
+            style = "@style/text_for_linear"
+            android:id = "@+id/label_fb"
+            android:text = "Выберите категорию"
+            />
+        <ImageView
+            style = "@style/image_for_linear"
+            android:id = "@+id/link_fb"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style = "@style/linear"
+        android:id = "@+id/insta">
+        <TextView
+            style = "@style/text_for_linear"
+            android:id = "@+id/label_insta"
+            android:text = "Выберите категорию"
+            />
+        <ImageView
+            style = "@style/image_for_linear"
+            android:id = "@+id/link_insta"
+            />
+    </LinearLayout>
+</LinearLayout>
